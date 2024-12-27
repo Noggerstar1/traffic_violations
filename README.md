@@ -9,8 +9,8 @@ Python projekt pro předmět Projektový seminář
 - python-dotenv
 
 ## Prerekvizity
-- python
-- postgresql
+- nainstalovaný python
+- nainstalovaný postgresql
 
 ## Instalace
 - python -m venv venv
@@ -20,8 +20,8 @@ Python projekt pro předmět Projektový seminář
 - spustit python script (např. v IDE nebo ručně přes příkaz "python fileName.py")
 
 ## Poznámky
-- pro spuštění skriptu pro úpravu prvotních dat je třeba stáhnout původní excel (src/dataPump/filter2023Data)
+- Z důvodu velikosti tento repozitář obsahuje pouze již upravené excely
+- Pokud chcete spustit skript pro úpravu prvotních dat (není třeba pro spuštění úloh nebo datové pumpy) je třeba stáhnout původní excel (src/dataPump/filter2023Data)
 - Traffic violations - https://data.montgomerycountymd.gov/Public-Safety/Traffic-Violations/4mse-ku6q/about_data
 - Weather data - https://catalog.data.gov/dataset/dickerson-weather-station-data
-- The names of the downloaded files have to be adjusted to the python scripts (filterTrafficViolations2023, filterWeather2023)
-- z důvodu velikosti tento repozitář obsahuje pouze již upravené excely
+- Jména stažených souborů musí být přizpůsobeny python skriptu (v souborech filterTrafficViolations2023.py, filterWeather2023.py)
