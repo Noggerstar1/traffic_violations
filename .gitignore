@@ -1,0 +1,5 @@
+venv/
+src/dataPump/__pycache__
+Dickerson_Weather_Station_Data.csv
+Traffic_Violations_20241218.csv
+.env
